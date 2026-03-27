@@ -38,7 +38,7 @@ setTimeout(()=>{
   document.getElementById("code").innerText = code;
 
   // send code to server
-  fetch("https://YOUR-SERVER.onrender.com/save", {
+  fetch("https://cashearn-cgdy.onrender.com", {
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body: JSON.stringify({code:code})
